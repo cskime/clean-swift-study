@@ -14,4 +14,4 @@ Clean Swift를 공부하는 공간
 |       | Name | Date |
 | :---: | :---: | :---: |
 | 1 | [Clean Architecture for iOS](https://github.com/cskime/clean-swift-study/blob/main/clean-architecture-for-ios.md) | 2023.01.08 |
-| 2 | |
+| 2 | [Clean Store Sample](https://github.com/cskime/clean-swift-study/blob/main/clean-store-sample.md) | 2023.01.15 |
