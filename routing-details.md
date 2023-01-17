@@ -56,17 +56,17 @@ protocol ListOrderRoutingLogic {
 
     private func setUpVIPCycle(destination: ShowOrderViewController) {
         let interactor = ShowOrderInteractor()
-		let presenter = ShowOrderPresenter()
-		let router = ShowOrderRouter()
+        let presenter = ShowOrderPresenter()
+        let router = ShowOrderRouter()
 
-		view.interactor = interactor
-		interactor.presenter = presenter
-		presenter.view = view
+        view.interactor = interactor
+        interactor.presenter = presenter
+        presenter.view = view
 
-		let router = ShowOrderRouter()
-		router.source = view
-		router.dataStore = interactor
-		view.router = router
+        let router = ShowOrderRouter()
+        router.source = view
+        router.dataStore = interactor
+        view.router = router
     }
     ```
 3. 데이터를 전달하고, 화면을 전환한다.
